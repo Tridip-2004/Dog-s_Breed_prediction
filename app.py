@@ -13,7 +13,7 @@ st.set_page_config(
 
 # ---------------- PATHS ----------------
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-MODEL_PATH = os.path.join(BASE_DIR, "dog_breed_classifier.h5")
+MODEL_PATH = os.path.join(BASE_DIR, "dog_breed_classifier.keras")
 CLASS_PATH = os.path.join(BASE_DIR, "class_names.txt")
 
 # ---------------- LOAD MODEL ----------------
