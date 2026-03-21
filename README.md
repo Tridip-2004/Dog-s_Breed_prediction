@@ -16,8 +16,6 @@ https://github.com/Tridip-2004/Dog-s_Breed_prediction_With_Render_Deployment-/bl
 
 ✅ Transfer learning + fine-tuning
 
-✅ Optimized for deployment
-
 ✅ Streamlit web application
 
 # 🧠 Model Architecture
@@ -100,7 +98,6 @@ streamlit run app.py
 ├── app.py
 ├── dog_breed_classifier.h5
 ├── class_names.txt
-|--- Dockerfile
 ├── requirements.txt
 ├── README.md
 └── dataset/
@@ -128,16 +125,6 @@ streamlit run app.py
 
 The fine-tuned model significantly improves accuracy compared to a frozen base model.
 
-# 🌐 Deployment
-
-The application will be ready to deploy using Render, ensuring:
-
-Reliable performance
-
-Scalable infrastructure
-
-Easy accessibility
-
 # 🔮 Future Enhancements
 
 🔹 Add top-3 predictions
@@ -163,4 +150,4 @@ This project is licensed under the MIT License.
 
 Tridip Panja
 🎓 AI / Machine Learning Enthusiast
-💻 Deep Learning | Computer Vision | Deployment
+💻 Deep Learning | Computer Vision | 
