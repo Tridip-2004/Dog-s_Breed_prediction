@@ -2,10 +2,13 @@
 # 📌 Project Overview
 
 Dog breed identification is a challenging computer vision task due to high inter-class similarity and variations in pose, lighting, and background.
+
 This project leverages MobileNetV2, a lightweight and efficient CNN architecture, to build a scalable and accurate dog breed classifier.
 
 # Screenshots
+
 https://github.com/Tridip-2004/Dog-s_Breed_prediction_With_Render_Deployment-/blob/main/Screenshot1.png
+
 https://github.com/Tridip-2004/Dog-s_Breed_prediction_With_Render_Deployment-/blob/main/Screenshot2.png
 
 # 🔹 Key Highlights
@@ -59,14 +62,23 @@ Data augmentation (rotation, flip, zoom)
 # 📌 Dataset organized using class-wise folders for training and validation.
 
 ⚙️ Technologies Used
+
 Category	Tools
+
 Programming	Python
+
 Deep Learning	TensorFlow, Keras
+
 Model	MobileNetV2
+
 Image Processing PIL
+
 Web App	Streamlit
-Will be ready to Deploy on Render
+
+Deployed on render
+
 Version Control	Git, GitHub
+
 # 🚀 Model Training
 
 Loss Function: Categorical Crossentropy
@@ -96,23 +108,32 @@ streamlit run app.py
 
 📁 Project Structure
 ├── app.py
+
 ├── dog_breed_classifier.h5
+
 ├── class_names.txt
+
 ├── requirements.txt
+
 ├── README.md
+
 └── dataset/
     ├── train/
     └── validation/
 
 # 🛠️ Installation & Usage
 1️⃣ Clone the Repository
+
 git clone https://github.com/your-username/dog-breed-classification.git
+
 cd dog-breed-classification
 
 2️⃣ Install Dependencies
+
 pip install -r requirements.txt
 
 3️⃣ Run the Application
+
 streamlit run app.py
 
 # 📊 Results
@@ -140,6 +161,7 @@ The fine-tuned model significantly improves accuracy compared to a frozen base m
 # 🤝 Contributing
 
 Contributions, suggestions, and improvements are welcome!
+
 Feel free to fork the repository and submit a pull request.
 
 # 📜 License
@@ -149,5 +171,7 @@ This project is licensed under the MIT License.
 # 👨‍💻 Author
 
 Tridip Panja
+
 🎓 AI / Machine Learning Enthusiast
+
 💻 Deep Learning | Computer Vision | 
