@@ -107,6 +107,7 @@ Features:
 streamlit run app.py
 
 📁 Project Structure
+
 ├── app.py
 
 ├── dog_breed_classifier.h5
@@ -118,7 +119,9 @@ streamlit run app.py
 ├── README.md
 
 └── dataset/
+    
     ├── train/
+    
     └── validation/
 
 # 🛠️ Installation & Usage
