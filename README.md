@@ -5,11 +5,13 @@ Dog breed identification is a challenging computer vision task due to high inter
 
 This project leverages MobileNetV2, a lightweight and efficient CNN architecture, to build a scalable and accurate dog breed classifier.
 
+
 # Screenshots
 
 https://github.com/Tridip-2004/Dog-s_Breed_prediction_With_Render_Deployment-/blob/main/Screenshot1.png
 
 https://github.com/Tridip-2004/Dog-s_Breed_prediction_With_Render_Deployment-/blob/main/Screenshot2.png
+
 
 # 🔹 Key Highlights
 
@@ -20,6 +22,7 @@ https://github.com/Tridip-2004/Dog-s_Breed_prediction_With_Render_Deployment-/bl
 ✅ Transfer learning + fine-tuning
 
 ✅ Streamlit web application
+
 
 # 🧠 Model Architecture
 
@@ -37,6 +40,7 @@ Dropout (regularization)
 
 Dense Softmax output (157 classes)
 
+
 # 🔧 Fine-Tuning Strategy
 
 Initial layers frozen for feature extraction
@@ -44,6 +48,7 @@ Initial layers frozen for feature extraction
 Top layers unfrozen for fine-tuning
 
 Lower learning rate for stable convergence
+
 
 # 📂 Dataset
 
@@ -58,6 +63,7 @@ Resizing to 224×224
 Normalization
 
 Data augmentation (rotation, flip, zoom)
+
 
 # 📌 Dataset organized using class-wise folders for training and validation.
 
@@ -79,6 +85,7 @@ Deployed on render
 
 Version Control	Git, GitHub
 
+
 # 🚀 Model Training
 
 Loss Function: Categorical Crossentropy
@@ -92,6 +99,7 @@ Epochs: Tuned for optimal performance
 Evaluation Metric: Accuracy
 
 The model was trained using transfer learning, followed by fine-tuning to improve performance on dog breed–specific features.
+
 
 # 🖥️ Streamlit Web Application
 Features:
@@ -124,20 +132,18 @@ streamlit run app.py
     
     └── validation/
 
+
 # 🛠️ Installation & Usage
-1️⃣ Clone the Repository
+1️. Clone the Repository
 
 git clone https://github.com/your-username/dog-breed-classification.git
 
 cd dog-breed-classification
 
-2️⃣ Install Dependencies
-
-pip install -r requirements.txt
-
-3️⃣ Run the Application
+3️. Run the Application
 
 streamlit run app.py
+
 
 # 📊 Results
 
@@ -148,6 +154,7 @@ streamlit run app.py
 ✔ Robust performance on unseen images
 
 The fine-tuned model significantly improves accuracy compared to a frozen base model.
+
 
 # 🔮 Future Enhancements
 
@@ -161,15 +168,18 @@ The fine-tuned model significantly improves accuracy compared to a frozen base m
 
 🔹 Multilingual UI support
 
+
 # 🤝 Contributing
 
 Contributions, suggestions, and improvements are welcome!
 
 Feel free to fork the repository and submit a pull request.
 
+
 # 📜 License
 
 This project is licensed under the MIT License.
+
 
 # 👨‍💻 Author
 
